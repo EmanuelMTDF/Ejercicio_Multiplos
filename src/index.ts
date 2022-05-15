@@ -11,7 +11,7 @@ una división es cero
 */
 
 let dividendo: number = Number(
-  prompt('"¿Este numero..." (Por favor, ingrese el primer número)')
+  prompt('"¿Este número..." (Por favor, ingrese el primer número)')
 );
 let divisorOCociente: number = Number(
   prompt('"...es múltiplo de: ?" (Por favor, ingrese el segundo número)')
