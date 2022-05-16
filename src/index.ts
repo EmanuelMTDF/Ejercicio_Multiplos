@@ -16,17 +16,17 @@ let dividendo: number = Number(
 let divisorOCociente: number = Number(
   prompt('"...es múltiplo de: ?" (Por favor, ingrese el segundo número)')
 );
-let resto: number = dividendo % divisorOCociente;
-let resultado: boolean = Boolean(resto);
 
-if (resto === 0) {
-  console.log((resultado = true));
-} else {
-  console.log((resultado = false));
+function esMultiplo(dividendo: number, divisorOCociente: number): boolean {
+  let resto: number = dividendo % divisorOCociente;
+  let resultado: boolean;
+  if (resto === 0) {
+    resultado = true;
+  } else {
+    resultado = false;
+  }
+  return resultado;
 }
 
-/*COMENTARIO
-
-El programa funciona, pero aún falta plantearlo como "Función", tal y como pide la consigna
-
-*/
+let resultado = esMultiplo(dividendo, divisorOCociente);
+console.log(resultado);
