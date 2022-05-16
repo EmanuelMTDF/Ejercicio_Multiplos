@@ -28,5 +28,4 @@ function esMultiplo(dividendo: number, divisorOCociente: number): boolean {
   return resultado;
 }
 
-let resultado = esMultiplo(dividendo, divisorOCociente);
-console.log(resultado);
+console.log(esMultiplo(dividendo, divisorOCociente));
